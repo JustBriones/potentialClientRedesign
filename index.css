@@ -45,6 +45,7 @@ padding-left: 25px;
 
 .bottomnav {
   background: url(./test_files/leadtemplate11_green_06.jpg) repeat-x scroll left top transparent;
+	min-width: 642px;
 }
 
 .bottomListItem {
@@ -54,4 +55,24 @@ padding-left: 25px;
   font-size: 18px;
   margin-right: 8px;
   padding: 28px 14px 29px;
+}
+
+.slides {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.flexslider {
+	margin-bottom: 30px;
+}
+
+.logo {
+	position:absolute;
+	left: -150px;
+	top:24px;
+	z-index:500;
+	background: url("./test_files/leadtemplate11_green_03.png") no-repeat;
+	min-height: 145px;
+	padding: 20px 30px 30px;
+	min-width: 325px;
 }
