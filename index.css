@@ -27,7 +27,7 @@ body {
 .rightListItem {
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
-  color: #fff !important;
+  color: #fff;
   font-size: 12px;
 
 }
@@ -55,6 +55,11 @@ padding-left: 25px;
   font-size: 18px;
   margin-right: 8px;
   padding: 28px 14px 29px;
+	min-height: 20px;
+}
+
+.navbar-nav>li>a {
+	line-height: 0px;
 }
 
 .slides {
@@ -75,4 +80,8 @@ padding-left: 25px;
 	min-height: 145px;
 	padding: 20px 30px 30px;
 	min-width: 325px;
+}
+
+.submitBtn {
+	display: inline-block;
 }

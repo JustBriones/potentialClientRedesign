@@ -99,23 +99,30 @@ Slider -->
   </div>
 
 <div class="about col-md-4 pull-left">
-  <p>
-<strong>Welcome to our website.</strong></p>
-<p>
+  <div class="heading">
+<strong>Welcome to our website.</strong>
+</div>
 We know that each customer has specific needs, so we strive to meet those specific needs with a wide array of products, investment tools, mortgages and best of all quality service and individual attention.<br>
 <br>
 Today's technology is providing a more productive environment to work in. For example, through our website you can submit a complete on-line, secure loan application or pre-qualify for a home loan. You may also evaluate your different financing options by using our interactive calculators and going over various mortgage scenarios.</p>
 
-<form name="frmLoanOfficer pull-right" method="post" action="http://www.lenderhomepage.com/content/leadtemplate11/green/LoanOfficer.php?acctid=100664" onsubmit="return validate();">
-
-		<font face="Arial"><span class="contents">Select a Loan Officer</span></font><br>
-		<select name="selLoanOfficerId">
-		<option value="">-------------------------</option>
-		<option value="104384">Jane Demo</option>		</select>
-		<input type="submit" value="Submit">
-
-</form>
-
+</div>
+<div class="container col-md-4">
+  <p>Select a Loan Officer</p>
+<div class="dropdown pull-left">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    ----------------
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Jane Doe</a></li>
+    <li><a href="#">Another loan officer</a></li>
+    <li><a href="#">Something else here</a></li>
+  </ul>
+</div>
+<div class="submitBtn btn btn-default pull-left">
+  Submit
+</div>
 </div>
 </div>
 </div>
